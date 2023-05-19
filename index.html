@@ -1,0 +1,34 @@
+<head>
+	<title>Proxy Server In Depth</title>
+    <link rel="stylesheet" href="css/main.css" />    <!-- Icon Lib -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <div class="preview-card" style="background-image: url(https://e-cdns-images.dzcdn.net/images/cover/000a9228cecfcc7c2093d9cd7bb66447/500x500-000000-80-0-0.jpg);" id="audioPlayer">
+      <div class="content"">
+        <div class="playctl"">
+          <audio id="myAudio">
+            <source src="https://cdns-preview-f.dzcdn.net/stream/c-f4d04fa22ff3cc680cad30eea149cc1d-6.mp3" type="audio/mpeg">
+          </audio>
+          <div id="controls">
+            <button class="ctrlBtn" id="playPauseButton">
+              <i class="bi bi-play-fill"></i>
+            </button>
+            <div class="playerInfo">
+              <span class="trackTitleText">Perfect</span>
+              <span class="trackArtistText">Ed Sheeran</span>
+            </div>
+            <div class="progress-bar-container">
+              <div id="progressBar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <script src="js/audio.js"></script>
+
+</body>
